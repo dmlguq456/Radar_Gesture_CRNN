@@ -32,8 +32,8 @@ class RadarGesture(Dataset):
         return (single_tensor, single_label)
 
 if __name__ == '__main__':
-    train_dir = './data_5_5/train'
-    test_dir = './data_5_5/test'
+    train_dir = './data/train'
+    test_dir = './data/test'
     train_dataset = RadarGesture(train_dir)
     test_dataset = RadarGesture(test_dir)
 

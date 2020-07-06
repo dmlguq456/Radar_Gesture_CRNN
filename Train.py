@@ -11,12 +11,11 @@ def main():
 
   batch_size = 5
   step_size = 0.0001
-  num_epochs = 200
-
+  num_epochs = 50
 
   # data loading
-  train_dir = './data_2_8/train'
-  test_dir = './data_2_8/test'
+  train_dir = './data/train'
+  test_dir = './data/test'
   
   train_dataset = Dataset.RadarGesture(train_dir)
   test_dataset = Dataset.RadarGesture(test_dir)
